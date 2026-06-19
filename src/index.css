@@ -492,6 +492,29 @@ img {
   gap: var(--space-xxs);
   max-height: 260px;
   overflow-y: auto;
+  padding-right: var(--space-xs);
+  margin-right: calc(-1 * var(--space-xs));
+}
+
+.filter-category-list::-webkit-scrollbar,
+.filter-brand-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.filter-category-list::-webkit-scrollbar-track,
+.filter-brand-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.filter-category-list::-webkit-scrollbar-thumb,
+.filter-brand-list::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: var(--radius-pill);
+}
+
+.filter-category-list::-webkit-scrollbar-thumb:hover,
+.filter-brand-list::-webkit-scrollbar-thumb:hover {
+  background: var(--color-border-hover);
 }
 
 .filter-category-item {
@@ -596,6 +619,8 @@ img {
   gap: var(--space-xxs);
   max-height: 220px;
   overflow-y: auto;
+  padding-right: var(--space-xs);
+  margin-right: calc(-1 * var(--space-xs));
 }
 
 .filter-brand-item {
