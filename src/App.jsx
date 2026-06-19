@@ -4,8 +4,11 @@ import ProductDetailPage from './pages/ProductDetailPage';
 import './App.css';
 
 function App() {
+  // Use import.meta.env.BASE_URL to automatically pick up the base path configured in vite.config.js
+  const basename = import.meta.env.BASE_URL;
+
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       {/* Global Application Header */}
       <header className="app-header">
         <div className="app-header__logo">
