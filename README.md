@@ -1,8 +1,8 @@
-# Leegality Frontend Engineer Assessment — E-Commerce UI
+# Amazon Style Landing Page
 
-A premium, responsive product listing and detail application built for the Leegality Frontend Engineer assessment. 
+A premium, responsive product listing and detail application built as an Amazon Style Landing Page. 
 
-**Demo Link:** [https://n1k0zy.github.io/Leegality-Assessment-UI/](https://n1k0zy.github.io/Leegality-Assessment-UI/)
+**Demo Link:** [https://Devanshu269.github.io/AmazonStyleProductlandingPage/](https://Devanshu269.github.io/AmazonStyleProductlandingPage/)
 
 *(Note: Replace the link above with the actual GitHub Pages URL once deployed).*
 
@@ -12,8 +12,8 @@ A premium, responsive product listing and detail application built for the Leega
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/n1k0zy/Leegality-Assessment-UI.git
-   cd "Leegality Assessment UI"
+   git clone https://github.com/Devanshu269/AmazonStyleProductlandingPage.git
+   cd "AmazonStyleProductlandingPage"
    ```
 
 2. **Install dependencies:**
